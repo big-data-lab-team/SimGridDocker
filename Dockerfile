@@ -17,7 +17,7 @@ RUN dnf update -y;\
 
 RUN git clone git://scm.gforge.inria.fr/simgrid/simgrid.git simgrid;\
     cd simgrid ;\
-    git checkout tags/v3.16;\
+    git checkout tags/v3.17;\
     cmake -DCMAKE_INSTALL_PREFIX=/opt/simgrid . ;\
     make ;\
     make install
